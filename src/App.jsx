@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Feedback from "./components/Feedback";
-import Options from "./components/Options";
+import Feedback from "./components/Feedback/Feedback";
+import Options from "./components/Options/Options";
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     neutral: 0,
     bad: 0,
  });
-  const handleFeedback =((type)) => {
+  const handleFeedback =(type) => {
     setFeedback({
       good: type === 'good' ? feedback.good + 1 : feedback.good,
       neutral: type === "neutral" ? feedback.neutral + 1 : feedback.neutral,
