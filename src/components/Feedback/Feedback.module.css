@@ -4,6 +4,7 @@
   border: 2px solid #ddd;
   border-radius: 10px;
   background-color: #f9f9f9;
+  text-align: left;
 }
 
 .title {
@@ -14,4 +15,8 @@
 .text {
   font-size: 18px;
   margin: 5px 0;
+}
+.positive {
+  color: #4800ff;
+  font-weight: bold;
 }
