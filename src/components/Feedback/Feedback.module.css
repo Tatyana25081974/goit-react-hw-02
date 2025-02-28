@@ -1,0 +1,17 @@
+.statistics {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.statistics h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+.statistics p {
+  font-size: 18px;
+  margin: 5px 0;
+}

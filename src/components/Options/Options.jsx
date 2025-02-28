@@ -1,4 +1,6 @@
-const Options = ({ onLeaveFeedback, onReset, totalFeedback}) => {
+import styles from "./Options.module.css";
+
+const Options = ({ onLeaveFeedback, onReset, totalFeedback }) => {
   return (
     <div>
       <button onClick={() => onLeaveFeedback("good")}>Good</button>

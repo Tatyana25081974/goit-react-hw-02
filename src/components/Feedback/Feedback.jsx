@@ -1,4 +1,7 @@
-const Feedback = ({  feedback, totalFeedback, positiveFeedback  }) => {
+
+import styles from "./Feedback.module.css";
+
+const Feedback = ({ feedback, totalFeedback, positiveFeedback }) => {
     return (
         <div>
             <h2>Statistics</h2>
