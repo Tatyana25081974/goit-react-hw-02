@@ -6,12 +6,12 @@
   background-color: #f9f9f9;
 }
 
-.statistics h2 {
+.title {
   font-size: 22px;
   color: #333;
 }
 
-.statistics p {
+.text {
   font-size: 18px;
   margin: 5px 0;
 }
